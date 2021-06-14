@@ -1,0 +1,5 @@
+package PPPart25Rota;
+
+public enum Skill {
+	PROGRAMMING, ELECTRONICS, RECEPTION, ENGINEERING, MANAGEMENT;
+}
