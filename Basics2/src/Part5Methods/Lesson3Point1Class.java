@@ -6,7 +6,6 @@ public class Lesson3Point1Class {
 
 	Scanner scanner = new Scanner(System.in);
 	boolean running = true;
-	private int count = 0;
 
 	public String[] options = { "1. View database", "2. Add new item", "3. Delete item", "4. Quit program" };
 
