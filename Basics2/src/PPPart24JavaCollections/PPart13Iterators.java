@@ -2,7 +2,6 @@ package PPPart24JavaCollections;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Iterator;
 import java.util.List;
 
 public class PPart13Iterators {
@@ -29,6 +28,7 @@ public class PPart13Iterators {
 				System.out.println("Found 15, now adding 16 to the list.....");
 				it.add(16);
 			} else if (numberChecker == 5) {
+				it.set(50);
 				System.out.println("Found 5, changing value from 5 to 50");
 			}
 		}
